@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ececec;
 }
 
 code {
@@ -14,8 +15,25 @@ code {
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: gray;
 }
 
 .current-link {
-  background: gray;
+  color: gray;
+}
+
+.current-link:hover {
+  color: gray;
+  cursor: default;
+}
+
+#footer {
+  position: fixed;
+  bottom:0;
+  width:100%;
+  height:40px;   /* Height of the footer */
 }
